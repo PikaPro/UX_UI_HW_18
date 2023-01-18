@@ -137,3 +137,75 @@ li b {
     text-decoration: none;
 
 }
+
+/* My skills Section using CSS flex*/
+
+.mySkills {
+    text-align: center;
+}
+
+div.flexContainer {
+    display: flex;
+    column-count: 4;
+    column-gap: 50px;
+    justify-content: space-around;
+
+    
+  
+
+}
+
+/*#flex-container {
+  border: 1px solid black;
+  background-color: rgb(255, 230, 251);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+#flex-container > div {
+  border: 1px solid black;
+  width: 10%;
+  aspect-ratio: 2;
+  padding: 10px;
+  background-color: lightgreen;
+
+.skillslist {
+    list-style-type: none;
+}
+*/
+
+.interaction {
+    background-color: #A4C92B;
+    display:flex;
+    border: 1px solid black;
+    padding: 30px;
+    
+      
+}
+
+.visual {
+    background-color: #9AC1F0;
+    display:flex;
+    border: 1px solid black;
+    padding: 30px;
+
+  
+}
+
+.software {
+    background-color: #F3C445;
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+  
+    
+}
+
+.coding {
+    background-color: #AB78E1;
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+   
+
+}

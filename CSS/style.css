@@ -140,6 +140,7 @@ div.flexContainer {
     column-count: 4;
     justify-content: space-around;
     height: auto;
+    flex-direction: row;
 
 }
 
@@ -320,5 +321,51 @@ div.flexContainer {
     margin-right: auto;
     cursor: pointer;
 
+
+}
+
+@media only screen and (max-width: 500) {
+    .flexcontainer {
+        display: column;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    
+    .interaction {
+    width: 50%;
+    }
+
+    .visual {
+    width: 50%;
+    }
+
+    .software {
+    width: 50%
+    }
+
+    .coding {
+    width: 50%
+    }
+
+    .Funbox {
+    width: auto;
+    margin: 0 auto;
+    }
+
+    .workGrid {
+
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "cardcontainer1"
+    "petinfo1"
+    "cardcontainer2"
+    "wolfinfo1"
+    "cardcontainer3"
+    "petinfo2"
+    "cardcontainer4"
+    "wolfinfo2";
+    }
 
 }

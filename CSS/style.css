@@ -90,7 +90,7 @@ p.aboutme {
 
 }
 
-button {
+.resume {
     background-color: #AB78E1;
     padding: 10px;
     border: #AB78E1;
@@ -99,6 +99,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 
@@ -195,4 +196,111 @@ div.flexContainer {
 
 /*My Work Section Constructed Using CSS Grid*/
 
-/*this is a test number three for github*/
+.projectsT {
+    text-align: center;
+}
+
+.lineP {
+    display: block;
+    background-color: #F3C445;
+    width: 60%;
+    height: 8px;
+    
+}
+
+.workGrid {
+    display: inline-grid;
+    grid-template-columns: 300px 150px 300px 300px;
+    grid-template-rows: 500px;
+   
+   
+
+}
+
+/*.buttonarea {
+    padding: 20px;
+    background-color: #A4C92B; 
+}*/
+
+.buttoncase {
+    background-color: #A4C92B;
+    color: black;
+    height:125px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.buttoncase2 {
+    background-color: #9AC1F0;
+    color: black;
+    height:125px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+    
+}
+
+#cardcontainer1 {
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 12px;
+    grid-column: 1/1;
+
+}
+.dogimg {
+    position:relative;
+    width: 250px;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 15px;
+    
+}
+
+#cardcontainer2 {
+    max-width: 275px;
+    margin: 0 auto;
+    border-radius: 12px;
+    grid-column: 3/0;
+
+}
+
+.ihwnA {
+    position:relative;
+    width: 250px;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 15px;
+    
+}
+/*
+.topleft{
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bottomleft{
+    border-radius: 12px;
+    text-align: center;
+
+}*/
+
+.topright{
+    padding: 10px;
+    text-align: left;
+    grid-column: 2/2;
+}
+
+.bottomright{
+   
+    padding: 10px;
+    text-align: left;
+    grid-column: 3/0;
+}

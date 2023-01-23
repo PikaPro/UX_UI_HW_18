@@ -43,7 +43,7 @@
                     </p>
                 </div>
                 <div>    
-                    <button>Click Here to Download Resume</button>
+                    <button class ="resume">Click Here to Download Resume</button>
                 </div>
         
         </section>  
@@ -120,33 +120,52 @@
         </section>
 
         <!--My Work Section Constructed Using CSS Grid-->
-        <section>
+        <section class = "uxprojects">
+            
+            <h1 class = "projectsT">UX/UI Projects</h1>
 
-            <h1>My Work</h1>
+            <section> <!--Dividing Line-->
+                <div class="lineP"></div>
+            </section>
+
+            <section>
             <div class="workGrid">
 
-                <div class="topleft">
-                    <img></img>
+                <div id="cardcontainer1">
+                    <div class="topleft">
+                        <img src = "Images/OnlyPetsImage.png" alt ="dog" class ="dogimg">
+                        <button class="buttoncase">Mobile Prototype Case Study</button>
+                    </div>   
                 </div>    
 
                 <div class="topright">
-                    <h4>Project 1</h4>
-                    <p>OnlyPets</p>
-                    <button></button>
+                    <h4>Mobile Prototype</h4>
+                    <p><i>OnlyPets</i></p>
+                    <p>Created in 2022</p>
+                    <p><u>Tools Used:</u></p>
+                    <p>Figma & Miro</p>
+                    
                 </div>
-
-                <div class="bottomleft">
-                    <img></img>
+                
+                <div id ="cardcontainer2">
+                    <div class="bottomleft">
+                        <img src = "Images/IHWN After Photo.png" alt ="IHWN" class="ihwnA">
+                        <button class="buttoncase2">Website Redesign</button>
+                    </div>
                 </div>
-
+                
                 <div class="bottomright">
-                    <h4>Project 2</h4>
-                    <p>In Harmony With Nature</p>
-                    <button></button>
+                    <h4>Website Redesign</h4>
+                    <p><i>In Harmony With Nature</i></p>
+                    <p>Created in 2022</p>
+                    <p><u>Tools Used:</u></p>
+                    <p>Figma</p>
+                    
                 </div>
 
-                <h3> View All Projects</h3>
+                <button class="mainproject"> View All Projects</button>
             </div>
+            </section>
         </section>
 
 

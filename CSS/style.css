@@ -135,7 +135,7 @@ p.email {
     text-align: center;
 }
 
-div.flexContainer {
+.flexContainer {
     display: flex;
     column-count: 4;
     justify-content: space-around;
@@ -212,7 +212,7 @@ div.flexContainer {
 .workGrid {
     display: inline-grid;
     grid-template-columns: 300px 150px 300px 300px;
-    grid-template-rows: 500px, 500px;
+   
    
    
 
@@ -282,6 +282,21 @@ div.flexContainer {
     border-radius: 15px;
     
 }
+
+#cardcontainer3 {
+    max-width: 275px;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+
+}
+#cardcontainer4 {
+    max-width: 275px;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+
+}
 /*
 .pets{
     border-radius: 12px;
@@ -324,8 +339,12 @@ div.flexContainer {
 
 }
 
-@media only screen and (max-width: 500) {
-    .flexcontainer {
+@media (max-width: 600px) {
+    .skillsT{
+        text-align: center;
+    }
+
+    .flexContainer {
         display: column;
         flex-direction: column;
         flex-wrap: wrap;
@@ -333,29 +352,49 @@ div.flexContainer {
     }
     
     .interaction {
-    width: 50%;
+    width: 100%;
+    justify-content: center;
+    
     }
 
     .visual {
-    width: 50%;
+    width: 100%;
+    justify-content: center;
     }
 
     .software {
-    width: 50%
+    width: 100%;
+    justify-content: center;
     }
 
     .coding {
-    width: 50%
+    width: 100%;
+    justify-content: center;
     }
 
-    .Funbox {
+    .FunBox {
     width: auto;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     }
 
-    .workGrid {
+    .projectsT {
+        text-align: center;
+    }
 
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    .lineP {
+        width:100%;
+    }
+
+    /*Media projects/work section*/
+
+    .Grid {
+        display: grid;
+        justify-content: center;
+    }
+    .workGrid {
+    grid-template-rows: 350px 250px 350px 250px 350px 250px 350px 250px ;
     grid-template-columns: 1fr;
     grid-template-areas: 
     "cardcontainer1"
@@ -366,6 +405,15 @@ div.flexContainer {
     "petinfo2"
     "cardcontainer4"
     "wolfinfo2";
+    justify-content: center;
+   
     }
 
+    .petsinfo{
+        text-align: center;
+    }
+
+    .wolfinfo {
+        text-align: center;
+    }
 }
